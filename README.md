@@ -1,4 +1,4 @@
-# CV Lab 11 – Line and Circle Detection Using Hough Transform
+# Line and Circle Detection Using Hough Transform
 
 ## Aim
 To detect straight lines and circular shapes in an input image using the Hough Transform techniques in OpenCV.
@@ -35,7 +35,7 @@ Displays the final image with detected lines and circles.
 ```text
 CV-Lab-11/
 ├── CVLAB11.ipynb
-├── images013.jpg       # Input image (add this file)
+├── images013.jpg       
 └── README.md
 ```
 
@@ -82,12 +82,6 @@ pip install opencv-python numpy matplotlib
 ```python
 img = cv2.imread('/content/drive/MyDrive/COMPUTER VISION/images013.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-```
-
-For a local image in the same folder as the notebook, use:
-
-```python
-img = cv2.imread('images013.jpg')
 ```
 
 ### Canny Edge Detection
@@ -149,4 +143,8 @@ If no lines or circles are detected, the output will show only the shapes that t
 - The notebook expects the input image `images013.jpg`; add it to the repository so others can reproduce the experiment.
 
 ## Author
-Add your name, department, college, and academic details here if required.
+Velaga Manikanta Sai.
+
+241FA23016.
+
+III-Data Science.
